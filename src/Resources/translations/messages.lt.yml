@@ -1,0 +1,68 @@
+lakion_cms:
+    form:
+        custom_block:
+            body: Turinys
+            image: Paveiksliukas
+            link: Nuoroda
+            name: Pavadinimas
+            title: Antraštė
+
+        product_block:
+            body: Turinys
+            image: Paveiksliukas
+            link: Nuoroda
+            name: Pavadinimas
+            product: Produktas
+            title: Antraštė
+
+        route:
+            content: Turinys
+            name: Pavadinimas
+            parent: Pirminis
+
+        static_content:
+            body: Turinys
+            id: Id
+            internal_name: Vidinis pavadinimas
+            parent: Pirminis
+            publish_end_date: Publikavimo pabaigos data
+            publish_start_date: Publikavimo pradžios data
+            publishable: Publikuotas
+            routes: Keliai
+            title: Antraštė
+            locale: Lokalė
+
+        string_block:
+            body: Turinys
+            name: Pavadinimas
+
+        taxon_block:
+            body: Turinys
+            image: Paveiksliukas
+            link: Nuoroda
+            name: Pavadinimas
+            taxon: Kategorija
+            title: Antraštė
+
+    menu:
+        admin:
+            header: Turinio valdymas
+            custom_blocks: Nenumatyti blokai
+            product_blocks: Produkto blokai
+            routes: Keliai
+            static_contents: Statinis turinys
+            string_blocks: Teksto blokai
+            taxon_blocks: Kategorijos blokai
+
+    ui:
+        new_product_block: Naujas produkto blokas
+        administration: Administravimas
+        new_static_content: Naujas statinis turinys
+        edit: Redaguoti
+        new_custom_block: Naujas nenumatytas blokas
+        custom_blocks: Dinaminiai blokai
+        product_blocks: Produkto blokai
+        routes: Keliai
+        static_contents: Statinis turinys
+        string_blocks: Teksto blokai
+        taxon_blocks: Kategorijos blokai
